@@ -1,0 +1,166 @@
+body{
+    background-image: url('background4.jpg');
+    background-size: cover;
+}
+#startgame{
+    width:250px;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 10px;
+    font-size: xx-large;
+    font-weight: 500;
+    position: absolute;
+   right: 55vw;
+   top: 40.5vh;
+   color: black;
+   background-image: linear-gradient(to right, green, greenyellow);
+    
+}
+#rps{
+    
+    width:250px;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 10px;
+    font-size: xx-large;
+    font-weight: 500;
+    position: absolute;
+   right: 35vw;
+   top: 40.5vh;
+   color: black;
+   background-image: linear-gradient(to right, green, greenyellow);
+      
+}
+
+#contact{
+    
+    width:100px;
+    border: 5px solid black;
+    padding: 5px;
+    margin: 5px;
+    font-size: small;
+    font-weight: 500;
+    position: absolute;
+   right: 1vw;
+   top: 1vh;
+   background-color: black;
+   color: white;
+}
+
+@keyframes ban{ 
+    0% {right: 0vw;
+        top: 75vh;}
+    50% { right: 10vw;
+         top:70vh;} 
+    100% {right: 0vw;
+        top: 75vh;}
+}
+
+@keyframes man{ 
+    0% {right: 90vw;
+        top: 75vh;}
+    50% { right: 80vw;
+         top:70vh;} 
+    100% {right: 90vw;
+        top: 75vh;}
+    }
+
+    @keyframes water{ 
+        0% {right: 45vw;
+            top: 0vh;}
+        50% { right: 45vw;
+             top:20vh;} 
+      
+        100% {right: 45vw;
+            top: 0vh;}
+        }
+    @keyframes app{ 
+        0% {right: 90vw;
+                top: 0vh;}
+         50% { right: 80vw;
+             top:10vh;} 
+        100% {right: 90vw;
+                top: 0vh;}
+               }
+   @keyframes gau{ 
+      0% {right: 8vw;
+         top: 8vh;}
+      50% { right: 20vw;
+         top:20vh;} 
+      100% {right: 8vw;
+         top: 8vh;}
+                     }
+
+#bananafs{
+   width: 10%;
+   position: absolute;
+   right: 0vw;
+   top: 75vh;
+   animation-name: ban;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+}
+
+#applefs{
+    width: 10%;
+    position: absolute;
+    right: 90vw;
+    top: 0vh;
+    animation-name: app;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#watermelonfs{
+    width: 10%;
+    position: absolute;
+    right: 45vw;
+    top: 0vh;
+    animation-name: water ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#mangofs{
+    width: 10%;
+    position: absolute;
+    right: 90vw;
+    top: 75vh;   
+    animation-name: man;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#guavafs{
+    width: 10%;
+    position: absolute;
+    right: 8vw;
+    top: 8vh;
+    animation-name: gau;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+        
+}
+
+button:hover{
+    transform: scale(1.5);
+    
+}
+
+#hovertext{
+    display: none;
+  }
+ #hovertext{
+    display: inline;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    background: #888;
+    border: 1px solid black;
+}
+
+

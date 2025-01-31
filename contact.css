@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .contact-window {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .contact-window h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-window ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact-window ul li {
+    margin-bottom: 8px;
+  }
+  
+  .contact-window ul li strong {
+    font-weight: bold;
+  }
+  
+  .contact-window ul li a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-window ul li a:hover {
+    text-decoration: underline;
+  }
